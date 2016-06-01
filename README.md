@@ -3,7 +3,13 @@
 ## How to run the app ?
 ### Initial entry point to run the application is Main.java file this class creates an CommandLineConsoleCanvas class and run it.
 ### Then you can type commands in the console.
- 
+
+## Error Handling:
+### Could be the case that an user entered a command with missing or wrong arguments in this case I took the approach to manage a catch-all strategy that will notify 
+### the user that something was wrong with that command. 
+
+### Could be the case that an user creates commands that try to draw outside of the dimensions of the canvas, in that case impletation will just draw only inside Canvas dimensions
+### For instance if an user creates a Canvas with width= 5 and try to draw an horizontal line with length 20 only a line of length 5 will be draw in the Canvas.  
    
 # Package structure and model Decisions
 
@@ -14,9 +20,9 @@
 
 ## com.springer.nature.editor.commands package
 
-
 *  CanvasCommandFactory: Factory class in charge of parsing commandLine and creates respectively ICommand
-*  ICommand, Command and implementations : They are in charge of parsing command arguments and create internal shape representations, each command implements a draw method that delegate to the internal shape representation.
+*  ICommand, Command and implementations : They are in charge of parsing command arguments and create internal shape representations, each command implements a draw method that delegate to the internal shape representation. Having independents
+commands that delegates the drawing allows decoupling between the client and the IShape 
    
 ## com.springer.nature.editor.console package
 
