@@ -9,7 +9,5 @@ public interface ICommand {
 
     String getName();
 
-    void setName(String name);
-
     void draw(ICanvas canvas);
 }

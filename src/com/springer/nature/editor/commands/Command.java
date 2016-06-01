@@ -18,10 +18,6 @@ public class Command implements ICommand {
         return name;
     }
 
-    @Override
-    public void setName(String name) {
-        this.name = name;
-    }
 
     @Override
     public void draw(ICanvas canvas) {

@@ -12,7 +12,7 @@ import java.util.List;
  */
 public class Canvas implements ICanvas {
 
-    private Area area;
+    private IArea area;
 
     private List<ICommand> commands = new ArrayList<ICommand>();
 
@@ -88,7 +88,7 @@ public class Canvas implements ICanvas {
     }
 
     @Override
-    public Area getArea() {
+    public IArea getArea() {
         return area;
     }
 

@@ -11,7 +11,7 @@ public interface ICanvas {
 
     void setElement(int x1, int i, char x);
 
-    Area getArea();
+    IArea getArea();
 
     int getWidth();
 
