@@ -5,6 +5,7 @@ import com.springer.nature.editor.constants.Constants;
 import com.springer.nature.editor.shapes.Rectangle;
 
 /**
+ * In charge of parsing arguments and create a Rectangle complex shape.
  * Created by juanvillalba on 1/06/16.
  */
 public class DrawRectangleCommand extends Command {

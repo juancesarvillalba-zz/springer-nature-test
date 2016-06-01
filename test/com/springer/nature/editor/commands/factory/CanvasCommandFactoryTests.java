@@ -1,5 +1,6 @@
 package com.springer.nature.editor.commands.factory;
 
+import com.springer.nature.editor.commands.CanvasCommandFactory;
 import com.springer.nature.editor.commands.ICommand;
 import com.springer.nature.editor.constants.Constants;
 import org.junit.Test;

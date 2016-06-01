@@ -3,6 +3,7 @@ package com.springer.nature.editor.commands;
 import com.springer.nature.editor.constants.Constants;
 
 /**
+ * In charge of parsing arguments for creation of a Canvas.
  * Created by juanvillalba on 1/06/16.
  */
 public class CreateCanvasCommand extends Command {

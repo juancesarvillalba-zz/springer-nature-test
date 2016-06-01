@@ -4,7 +4,7 @@ import com.springer.nature.editor.canvas.Canvas;
 import com.springer.nature.editor.canvas.ICanvas;
 import com.springer.nature.editor.commands.CreateCanvasCommand;
 import com.springer.nature.editor.commands.ICommand;
-import com.springer.nature.editor.commands.factory.CanvasCommandFactory;
+import com.springer.nature.editor.commands.CanvasCommandFactory;
 import com.springer.nature.editor.constants.Constants;
 
 import java.util.Scanner;

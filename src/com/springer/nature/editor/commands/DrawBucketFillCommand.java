@@ -4,6 +4,8 @@ import com.springer.nature.editor.canvas.ICanvas;
 import com.springer.nature.editor.constants.Constants;
 
 /**
+ * In charge of parsing arguments and execute flood fill algorithm
+ *
  * Created by juanvillalba on 1/06/16.
  */
 public class DrawBucketFillCommand extends Command {

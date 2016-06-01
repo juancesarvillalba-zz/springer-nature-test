@@ -1,4 +1,4 @@
-package com.springer.nature.editor.commands.factory;
+package com.springer.nature.editor.commands;
 
 import com.springer.nature.editor.commands.CreateCanvasCommand;
 import com.springer.nature.editor.commands.DrawBucketFillCommand;

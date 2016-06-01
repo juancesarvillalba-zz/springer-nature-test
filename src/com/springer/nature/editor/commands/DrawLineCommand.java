@@ -5,6 +5,8 @@ import com.springer.nature.editor.constants.Constants;
 import com.springer.nature.editor.shapes.Line;
 
 /**
+ * In charge of parsing arguments and create a Line shape.
+ *
  * Created by juanvillalba on 1/06/16.
  */
 public class DrawLineCommand extends Command {
