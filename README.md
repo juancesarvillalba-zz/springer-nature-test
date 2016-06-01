@@ -41,5 +41,6 @@ A ComplexShape : use the composite pattern to model the concept of hierarchy, fo
 
 * Main : Java class to run the program, it creates  CommandLineConsoleCanvas and run it.
    
+# Diagram Entity Relation class
    
-   
+* A ER diagram  class is in the doc folder included as gliffy format, also the same diagram is exported as an png image.   

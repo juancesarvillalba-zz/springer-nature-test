@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4b47257-503a-4854-ab13-f84eeadd59eb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/springer/nature/editor/canvas/Canvas.java" afterPath="$PROJECT_DIR$/src/com/springer/nature/editor/canvas/Canvas.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/springer/nature/editor/commands/Command.java" afterPath="$PROJECT_DIR$/src/com/springer/nature/editor/commands/Command.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/springer/nature/editor/canvas/ICanvas.java" afterPath="$PROJECT_DIR$/src/com/springer/nature/editor/canvas/ICanvas.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/springer/nature/editor/commands/ICommand.java" afterPath="$PROJECT_DIR$/src/com/springer/nature/editor/commands/ICommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="TestA.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,15 +25,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.73309606">
+              <caret line="45" column="119" selection-start-line="45" selection-start-column="119" selection-end-line="45" selection-end-column="119" />
               <folding />
             </state>
           </provider>
-          <provider selected="true" editor-type-id="MarkdownPreviewEditor">
+          <provider editor-type-id="MarkdownPreviewEditor">
             <state />
           </provider>
         </entry>
@@ -62,16 +58,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spencercodediagram.gliffy" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/doc/spencercodediagram.gliffy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -91,11 +77,12 @@
         <option value="$PROJECT_DIR$/src/com/springer/nature/editor/commands/DrawLineCommand.java" />
         <option value="$PROJECT_DIR$/src/com/springer/nature/editor/commands/DrawRectangleCommand.java" />
         <option value="$PROJECT_DIR$/src/com/springer/nature/editor/commands/QuitCanvasCommand.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/com/springer/nature/editor/canvas/Canvas.java" />
         <option value="$PROJECT_DIR$/src/com/springer/nature/editor/canvas/ICanvas.java" />
         <option value="$PROJECT_DIR$/src/com/springer/nature/editor/commands/ICommand.java" />
         <option value="$PROJECT_DIR$/src/com/springer/nature/editor/commands/Command.java" />
+        <option value="$PROJECT_DIR$/doc/spencercodediagram.gliffy" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -619,21 +606,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/springer/nature/editor/canvas/IArea.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/spencercodediagram.gliffy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -646,12 +630,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/spencercodediagram.gliffy">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.73309606">
+          <caret line="45" column="119" selection-start-line="45" selection-start-column="119" selection-end-line="45" selection-end-column="119" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
   </component>
