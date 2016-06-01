@@ -3,6 +3,7 @@ package com.springer.nature.editor.shapes;
 import com.springer.nature.editor.canvas.Canvas;
 import com.springer.nature.editor.commands.CreateCanvasCommand;
 import com.springer.nature.editor.constants.Constants;
+import com.springer.nature.editor.output.ConsoleOutputFormat;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -22,7 +23,7 @@ public class RectangleTests {
     public void setUp() {
         String[] commandLineArguments = {"20", "4"};
         CreateCanvasCommand createCanvasCommand = new CreateCanvasCommand(commandLineArguments);
-        canvas = new Canvas(createCanvasCommand);
+        canvas = new Canvas(createCanvasCommand, new ConsoleOutputFormat());
     }
 
     @Test

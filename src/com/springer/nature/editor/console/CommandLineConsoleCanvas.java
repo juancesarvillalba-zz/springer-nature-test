@@ -6,6 +6,7 @@ import com.springer.nature.editor.commands.CreateCanvasCommand;
 import com.springer.nature.editor.commands.ICommand;
 import com.springer.nature.editor.commands.CanvasCommandFactory;
 import com.springer.nature.editor.constants.Constants;
+import com.springer.nature.editor.output.ConsoleOutputFormat;
 
 import java.util.Scanner;
 
@@ -22,7 +23,7 @@ public class CommandLineConsoleCanvas {
         Scanner scanIn = new Scanner(System.in);
         // Loop until user type  CREATE_CANVAS_COMMAND
         ICommand createCommand = readUntilCreateCommand(scanIn);
-        ICanvas canvas = new Canvas((CreateCanvasCommand) createCommand);
+        ICanvas canvas = new Canvas((CreateCanvasCommand) createCommand , new ConsoleOutputFormat());
         // Start reading for drawing commands until quit command
         do {
             ICommand command = null;

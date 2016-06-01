@@ -42,6 +42,10 @@ A ComplexShape : use the composite pattern to model the concept of hierarchy, fo
   
 * Line , Rectangle both implement IShape because of that they know how to draw itself in a Canvas.  
    
+## com.springer.nature.editor.output package
+
+* IOutputFormat , ConsoleOutputFormat : The idea of this class is to have an interface and concrete implementation to decouple ouput operations (drawing) from the Canvas.
+This will allow the possibility to change the output mechanism for example from Console to a File implementation.
 
 ## com.springer.nature.editor package
 
@@ -49,4 +53,4 @@ A ComplexShape : use the composite pattern to model the concept of hierarchy, fo
    
 # Diagram Entity Relation class
    
-* A ER diagram  class is in the doc folder included as gliffy format, also the same diagram is exported as an png image.   
+* A ER diagram  class with the most important Classess in the system is in the doc folder included as gliffy format, also the same diagram is exported as an png image.   
